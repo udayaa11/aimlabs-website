@@ -1,0 +1,32 @@
+[
+    {
+        "img": "/webp/service/ai.webp",
+        "title": "Artificial Intelligence (AI)",
+        "description": "We build intelligent solutions that automate tasks, boost decision-making, and unlock new possibilities with machine learning, NLP, and predictive analytics."
+    },
+    {
+        "img": "/webp/service/cloudService.webp",
+        "title": "Cloud Services",
+        "description": "We deliver scalable cloud solutions that enable agility, cost-efficiency, and innovation, helping you harness the power of cloud computing."
+    },
+    {
+        "img": "/webp/service/consulting.webp",
+        "title": "Consulting",
+        "description": "Our experts provide strategic guidance to drive your business transformation, improve operations, and maximize ROI."
+    },
+    {
+        "img": "/webp/service/cyberSecurity.webp",
+        "title": "Cybersecurity",
+        "description": "Protect your business with robust cybersecurity strategies, advanced threat detection, and data protection solutions."
+    },
+    {
+        "img": "/webp/service/dataAndAnalysis.webp",
+        "title": "Data & Analytics",
+        "description": "Unlock the value of your data with advanced analytics, real-time dashboards, and predictive insights."
+    },
+    {
+        "img": "/webp/service/digitalTransformation.webp",
+        "title": "Digital Transformation",
+        "description": "We help you embrace emerging technologies to reinvent business processes, improve customer experience, and stay competitive."
+    }
+]

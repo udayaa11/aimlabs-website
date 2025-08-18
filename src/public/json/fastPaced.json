@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Faster Time-to-Market",
+    "desc": "Launch your product before the competition.",
+    "red": "/svg/fasterTimeToMarket2/Red.svg",
+    "white": "/svg/fasterTimeToMarket2/White.svg"
+  },
+  {
+    "title": "Quick Adaptation to Feedback",
+    "desc": "Iterate rapidly based on real user input.",
+    "red": "/svg/quickAdaptationtoFeedback/Red.svg",
+    "white": "/svg/quickAdaptationtoFeedback/White.svg"
+  },
+  {
+    "title": "Reduced Development Costs",
+    "desc": "Efficiency saves time and budget.",
+    "red": "/svg/reducedDevelopmentCosts/Red.svg",
+    "white": "/svg/reducedDevelopmentCosts/White.svg"
+  },
+  {
+    "title": "High Responsiveness",
+    "desc": "Easily adjust to changing business goals.",
+    "red": "/svg/highResponsiveness/Red.svg",
+    "white": "/svg/highResponsiveness/White.svg"
+  },
+  {
+    "title": "Early ROI Realization",
+    "desc": "Start gaining value while we continue to enhance.",
+    "red": "/svg/earlyRoiRealization/Red.svg",
+    "white": "/svg/earlyRoiRealization/White.svg"
+  },
+  {
+    "title": "Greater Innovation Speed",
+    "desc": "Test and implement new ideas faster.",
+    "red": "/svg/greaterInnovationSpeed/Red.svg",
+    "white": "/svg/greaterInnovationSpeed/White.svg"
+  }
+]

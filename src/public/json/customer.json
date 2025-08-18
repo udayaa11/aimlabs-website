@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Stronger Client Relationships",
+    "desc": "Built on trust, transparency, and constant communication.",
+    "red": "/svg/strongerClientRelationships/Red.svg",
+    "white": "/svg/strongerClientRelationships/White.svg"
+  },
+  {
+    "title": "Higher Satisfaction",
+    "desc": "Happy customers stick around and grow with you.",
+    "red": "/svg/higherSatisfaction/Red.svg",
+    "white": "/svg/higherSatisfaction/White.svg"
+  },
+  {
+    "title": "Better Business Outcomes",
+    "desc": "Solutions that truly fit customer needs deliver real impact.",
+    "red": "/svg/betterBusinessOutcomes/Red.svg",
+    "white": "/svg/betterBusinessOutcomes/White.svg"
+  },
+  {
+    "title": "Faster, More Relevant Iterations",
+    "desc": " Feedback loops lead to quicker, customer-validated improvements.",
+    "red": "/svg/fasterMoreRelevantIterations/Red.svg",
+    "white": "/svg/fasterMoreRelevantIterations/White.svg"
+  },
+  {
+    "title": "Shared Success",
+    "desc": "We measure our success by yours.",
+    "red": "/svg/sharedSuccess/Red.svg",
+    "white": "/svg/sharedSuccess/White.svg"
+  },
+  {
+    "title": "Better Product Fit",
+    "desc": "Build exactly what customers need.",
+    "red": "/svg/betterProductFit/Red.svg",
+    "white": "/svg/betterProductFit/White.svg"
+  },
+    {
+    "title": "Stronger Loyalty",
+    "desc": "Happy clients become long-term advocates.",
+    "red": "/svg/strongerLoyalty/Red.svg",
+    "white": "/svg/strongerLoyalty/White.svg"
+  }
+]

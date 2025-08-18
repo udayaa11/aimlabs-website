@@ -1,0 +1,44 @@
+[
+    {
+        "quote": "Their AI and cloud expertise helped us automate key workflows and scale faster. Truly a game-changer for our operations!",
+        "name": "Uday Baliboina",
+        "role": "DEV, Aimlabs",
+        "avatar": "/png/manImage.png",
+        "icon": "/svg/earBudsIcons.svg"
+    },
+    {
+        "quote": "The team’s insights transformed our infrastructure. We’re now faster, smarter, and more secure.",
+        "name": "Aarav Mehta",
+        "role": "CTO, NexaTech",
+        "avatar": "/png/manImage.png",
+        "icon": "/svg/earBudsIcons.svg"
+    },
+    {
+        "quote": "From strategy to execution, they nailed it. Our cloud migration was seamless.",
+        "name": "Sneha Reddy",
+        "role": "Product Manager, CloudNova",
+        "avatar": "/png/manImage.png",
+        "icon": "/svg/earBudsIcons.svg"
+    },
+    {
+        "quote": "We saw a 40% boost in efficiency after implementing their AI solutions. Highly recommended!",
+        "name": "Rohan Kapoor",
+        "role": "Lead Engineer, DataSphere",
+        "avatar": "/png/manImage.png",
+        "icon": "/svg/earBudsIcons.svg"
+    },
+    {
+        "quote": "Their design and tech synergy is unmatched. Our app looks stunning and performs flawlessly.",
+        "name": "Isha Verma",
+        "role": "UX Lead, PixelForge",
+        "avatar": "/png/manImage.png",
+        "icon": "/svg/earBudsIcons.svg"
+    },
+    {
+        "quote": "Reliable, innovative, and fast. They’re our go-to tech partner now.",
+        "name": "Kunal Desai",
+        "role": "Founder, BrightStack",
+        "avatar": "/png/manImage.png",
+        "icon": "/svg/earBudsIcons.svg"
+    }
+]

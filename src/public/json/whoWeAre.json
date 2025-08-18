@@ -1,0 +1,89 @@
+{
+  "banner": {
+    "image": "/webp/fastPacedDevelopment.webp",
+    "icon": "/svg/winnerCelebration.svg",
+    "tagline": "Grow your business with us",
+    "title": "About Aimlabs"
+  },
+  "about": {
+    "title": "We Are Aimlabs",
+    "paragraphs": [
+      "At AIMLABS, we specialize in delivering innovative technology solutions that help businesses grow, adapt, and lead in the digital era. With a strong foundation in AI, data analytics, cybersecurity, cloud services, and digital transformation, we turn complex challenges into simple, scalable solutions.",
+      "At AIMLABS, we specialize in delivering innovative technology solutions that help businesses grow, adapt, and lead in the digital era. With a strong foundation in AI, data analytics, cybersecurity, cloud services, and digital transformation, we turn complex challenges into simple, scalable solutions.",
+      "At AIMLABS, we specialize in delivering innovative technology solutions that help businesses grow, adapt, and lead in the digital era. With a strong foundation in AI, data analytics, cybersecurity, cloud services, and digital transformation, we turn complex challenges into simple, scalable solutions."
+    ]
+  },
+  "solutions": {
+    "title": "Provide Advanced Business Solutions.",
+    "desc": "We blend deep tech expertise with user-focused design to build reliable, scalable solutions—AI, automation, or custom software—that drive growth and efficiency.",
+    "points": [
+      {
+        "icon": "/svg/blackTick.svg",
+        "title": "Make your business stand out",
+        "desc": "Stand out with smart, impactful, and future-ready tech solutions."
+      },
+      {
+        "icon": "/svg/blackTick.svg",
+        "title": "Drive Innovation with Technology",
+        "desc": "Leverage cutting-edge technology to innovate, grow, and stay competitive."
+      }
+    ],
+    "cards": [
+      { "icon": "/svg/aboutUs/innovationRed.svg", "title": "Driven by Innovation" },
+      { "icon": "/svg/aboutUs/innovationRed.svg", "title": "Quality & Trust" },
+      { "icon": "/svg/aboutUs/innovationRed.svg", "title": "Scalable Solutions" },
+      { "icon": "/svg/aboutUs/innovationRed.svg", "title": "Future-Ready Tech" }
+    ]
+  },
+  "results": {
+    "title": "Driven by Results",
+    "desc": "With 75+ projects and 30+ global clients, our results speak for themselves. Backed by 8+ years of experience, we deliver measurable impact.",
+    "stats": [
+      {
+        "title": "Days of Experience",
+        "desc": "15+ years of expertise delivering trusted, innovative, and impactful solutions.",
+        "value": "2,920"
+      },
+      {
+        "title": "Projects Delivered",
+        "desc": "Successfully executed projects across industries and geographies.",
+        "value": "75+"
+      },
+      {
+        "title": "Global Clients",
+        "desc": "Trusted by businesses worldwide for consistent results.",
+        "value": "30+"
+      },
+            {
+        "title": "Global Clients",
+        "desc": "Trusted by businesses worldwide for consistent results.",
+        "value": "30+"
+      },
+            {
+        "title": "Global Clients",
+        "desc": "Trusted by businesses worldwide for consistent results.",
+        "value": "30+"
+      }
+    ]
+  },
+  "process": {
+    "title": "The creative process behind our projects.",
+    "steps": [
+      {
+        "number": "1",
+        "title": "From Thought to Strategy",
+        "desc": "We refine raw ideas into clear, focused, and actionable strategies."
+      },
+      {
+        "number": "2",
+        "title": "Design & Development",
+        "desc": "Turning strategies into intuitive, impactful, and scalable solutions."
+      },
+      {
+        "number": "3",
+        "title": "Launch & Scale",
+        "desc": "Deploying solutions and scaling them with continuous improvement."
+      }
+    ]
+  }
+}
