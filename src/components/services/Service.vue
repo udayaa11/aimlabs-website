@@ -151,7 +151,7 @@ onUnmounted(() => {
       </div>
     </div>
 
-    <CommonSplide :items="services">
+    <CommonSplide :items="services" :align="'end'">
       <template #default="{ item }">
         <div class="w-[348px] flex-shrink-0">
           <div class="h-[256px] rounded-t-xl overflow-hidden group cursor-pointer">

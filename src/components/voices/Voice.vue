@@ -55,10 +55,7 @@ const { progressWidth, splideOptions } = useSplideLogic(splideRef)
     </div>
 
     <CommonSplide
-      :items="voices"
-      :left-default="'/svg/leftDefault.svg'"
-      :right-default="'/svg/rightDefault.svg'"
-    >
+      :items="voices" :align="'end'">
       <template #default="{ item }">
         <div class="max-w-[480px] mx-2 relative group">
           <div

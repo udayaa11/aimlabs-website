@@ -1,6 +1,6 @@
 <template>
-    <div class="flex items-center gap-x-2 py-5 justify-end px-4 lg:px-[120px]">
-
+    <div class="flex items-center gap-x-2 py-5 px-4 lg:px-[120px]"
+        :class="align === 'end' ? 'justify-end' : 'justify-start'">
         <img :src="isLeftHover ? '/svg/leftHoverRed.svg' : '/svg/leftArrowHover.svg'" alt="Left" class="cursor-pointer"
             @mouseenter="isLeftHover = true" @mouseleave="isLeftHover = false" @click="splideRef.go('<')" />
 
@@ -21,6 +21,7 @@ import { ref } from 'vue'
 const props = defineProps<{
     splideRef: any
     progressWidth: number
+    align?: 'start' | 'end'
 }>()
 
 const isLeftHover = ref(false)

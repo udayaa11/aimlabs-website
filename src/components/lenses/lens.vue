@@ -10,7 +10,7 @@
                 <img :src="img" class="w-full max-w-[240px] h-[320px] object-cover rounded-lg" />
             </SplideSlide>
         </Splide>
-        <common-splide-controls :splide-ref="splideRef" :progress-width="progressWidth" />
+        <common-splide-controls :splide-ref="splideRef" :progress-width="progressWidth" :align="'end'" />
     </div>
 </template>
 
