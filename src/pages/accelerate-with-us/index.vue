@@ -9,7 +9,7 @@
       <ul class="flex justify-between w-full gap-x-8 text-base leading-5 cursor-pointer hover:[&>li>a]:text-red-600">
         <li><NuxtLink to="/accelerate-with-us/innovative-cutting-edge-tech" @click="props.closeDropdown">Innovative / Cutting Edge Tech</NuxtLink></li>
         <li>
-          <NuxtLink to="/accelerate-with-us/customer-centric-approach" @click="closeDropdown">Customer Centric Approach</NuxtLink>
+          <NuxtLink to="/accelerate-with-us/customer-centric-approach" @click="props.closeDropdown">Customer Centric Approach</NuxtLink>
         </li>
         <li>
           <NuxtLink to="/accelerate-with-us/adaptability-flexibility" @click="props.closeDropdown">Adaptability & Flexibility</NuxtLink>

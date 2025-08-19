@@ -36,8 +36,8 @@
             <img src="/svg/dropdownIcon.svg"
               :style="{ transform: activeDropdown === 'about' ? 'rotate(180deg)' : 'rotate(0deg)', transition: 'transform 0.3s ease' }" />
           </div>
-          <transition name="slide-fade">
-            <AboutUs v-if="activeDropdown === 'about'"
+          <transition name="slide-fade"> 
+            <AboutUs v-if="activeDropdown === 'about'" :close-dropdown="closeDropdown"
               class="absolute left-0 top-[84px] bg-white shadow-md p-4 w-full" />
           </transition>
 
@@ -45,7 +45,6 @@
             <span class="font-outfit text-base font-semibold leading-5">Careers</span>
           </div>
         </div>
-
         <div class="p-10">
           <ContactUsButton bg-color="bg-red-600" text-color="text-white" />
         </div>

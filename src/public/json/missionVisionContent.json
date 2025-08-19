@@ -1,0 +1,51 @@
+[
+  {
+    "banner": {
+      "image": "/webp/fastPacedDevelopment.webp",
+      "alt": "Home Page Banner",
+      "overlay": {
+        "icon": "/svg/missionGoalSuccess.svg",
+        "iconAlt": "Icon",
+        "tagline": "Creating value through cutting-edge solutions.",
+        "heading": "Mission & Vision"
+      }
+    },
+    "section": {
+      "heading": "What You Get",
+      "description": "We are driven by integrity, innovation, and excellence. Our team thrives on collaboration, customer-centric thinking, and a passion for solving real-world challenges with smart technology. We believe in continuous learning, transparency, and delivering consistent value to our clients and communities.",
+      "carousel": {
+        "component": "CommonSplide",
+        "props": {
+          "splideRef": "splideRef",
+          "progressWidth": "progress"
+        }
+      },
+      "cards": [
+        {
+          "image": {
+            "src": "/png/coreValues.png",
+            "alt": "Core Values"
+          },
+          "heading": "Core Values",
+          "description": "Our foundation is built on trust, transparency, and a relentless pursuit of excellence. These values guide every decision we make and every solution we deliver."
+        },
+        {
+          "image": {
+            "src": "/png/ourMission.png",
+            "alt": "Our Mission"
+          },
+          "heading": "Our Mission",
+          "description": "To empower businesses and communities through innovative digital solutions that solve real problems, drive growth, and create lasting impact."
+        },
+        {
+          "image": {
+            "src": "/png/ourVision.png",
+            "alt": "Our Vision"
+          },
+          "heading": "Our Vision",
+          "description": "We envision a future where technology bridges gaps, enhances lives, and enables sustainable progress across industries and societies."
+        }
+      ]
+    }
+  }
+]

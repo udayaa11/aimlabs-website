@@ -6,7 +6,7 @@
       </SplideSlide>
     </Splide>
 
-    <CommonSplideControls :splide-ref="splideRef" :progress-width="progressWidth" :align="align" />
+    <CommonSplideControls :splide-ref="splideRef" :progress-width="progressWidth" :align="align" :padding="padding" />
   </div>
 </template>
 
@@ -19,8 +19,20 @@ import { useSplideLogic } from '../../composables/useSplide'
 const props = defineProps<{
   items: any[]
   align: 'start' | 'end'
+  padding: 'px-4 lg:px-[120px]'
 }>()
 
 const splideRef = ref()
-const { progressWidth, splideOptions } = useSplideLogic(splideRef)
+// const { progressWidth, splideOptions } = useSplideLogic(splideRef)
+const { progressWidth, splideOptions } =
+  useSplideLogic(splideRef, {
+    autoWidth: true,
+    drag: 'free',
+    focus: 'left',
+    gap: 20,
+    padding: { left: '0px', right: '220px' },
+    pagination: false,
+    arrows: false
+  })
+
 </script>
