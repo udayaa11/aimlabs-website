@@ -44,8 +44,8 @@
                     @click="goNext" />
             </div>
         </div>
-        <BoardsBoard/>
-        <Fundamental/>
+        <BoardsBoard />
+        <Fundamental />
     </div>
 </template>
 
