@@ -2,5 +2,43 @@
   "bannerImage": "/webp/ourTeam.webp",
   "icon": "/svg/teamIcon.svg",
   "tagline": "Meet Our Experts",
-  "heading": "Together We Build Success"
+  "heading": "Together We Build Success",
+  "workspace": [
+    {
+      "title": "The Heart of Innovation",
+      "directionIcon": "/svg/ourWorkspace/direction.svg",
+      "image": "/svg/ourWorkspace/rectangle2.svg",
+      "layout": "text-first"
+    },
+    {
+      "title": "Workspace Vibes",
+      "directionIcon": "/svg/ourWorkspace/direction2.svg",
+      "image": "/svg/ourWorkspace/rectangle4.svg",
+      "layout": "text-first"
+    },
+    {
+      "title": "Creative Corners",
+      "directionIcon": "/svg/ourWorkspace/direction2.svg",
+      "image": "/svg/ourWorkspace/rectangle1.svg",
+      "layout": "image-first"
+    },
+    {
+      "title": "Chill & Recharge",
+      "directionIcon": "/svg/ourWorkspace/direction2.svg",
+      "image": "/svg/ourWorkspace/rectangle1.svg",
+      "layout": "text-first"
+    },
+    {
+      "title": "Collaboration Zone",
+      "directionIcon": "/svg/ourWorkspace/direction2.svg",
+      "image": "/svg/ourWorkspace/rectangle2.svg",
+      "layout": "image-first"
+    },
+    {
+      "title": "Inspiration Hub",
+      "directionIcon": "/svg/ourWorkspace/direction2.svg",
+      "image": "/svg/ourWorkspace/rectangle4.svg",
+      "layout": "image-first"
+    }
+  ]
 }

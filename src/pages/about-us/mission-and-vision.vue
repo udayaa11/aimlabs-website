@@ -13,7 +13,7 @@
             </div>
         </div>
 
-        <div class="w-full max-w-[1440px] mx-auto px-6 lg:px-[120px] pt-12">
+        <div class="w-full max-w-[1440px] mx-auto px-6 lg:pl-[120px] pt-12">
             <Splide :options="splideOptions" ref="splideRef">
                 <SplideSlide v-for="(card, index) in content.section.cards" :key="index" class="w-full h-auto">
                     <div class="flex flex-col lg:flex-row items-center gap-12">
@@ -29,7 +29,7 @@
                 </SplideSlide>
             </Splide>
 
-            <div class="flex items-center gap-x-2 py-5 justify-start">
+            <div class="flex items-center gap-x-2 py-0">
                 <img :src="isLeftHover ? '/svg/leftHoverRed.svg' : '/svg/leftArrowHover.svg'" alt="Left"
                     class="cursor-pointer" @mouseenter="isLeftHover = true" @mouseleave="isLeftHover = false"
                     @click="goPrev" />
@@ -44,6 +44,8 @@
                     @click="goNext" />
             </div>
         </div>
+
+
         <BoardsBoard />
         <Fundamental />
     </div>

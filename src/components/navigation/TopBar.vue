@@ -36,14 +36,17 @@
             <img src="/svg/dropdownIcon.svg"
               :style="{ transform: activeDropdown === 'about' ? 'rotate(180deg)' : 'rotate(0deg)', transition: 'transform 0.3s ease' }" />
           </div>
-          <transition name="slide-fade"> 
+          <transition name="slide-fade">
             <AboutUs v-if="activeDropdown === 'about'" :close-dropdown="closeDropdown"
               class="absolute left-0 top-[84px] bg-white shadow-md p-4 w-full" />
           </transition>
 
-          <div class="cursor-pointer">
-            <span class="font-outfit text-base font-semibold leading-5">Careers</span>
-          </div>
+          <NuxtLink to="/careers" class="cursor-pointer flex flex-col items-center gap-2">
+            <span class="font-outfit text-base font-semibold leading-5">
+              Careers
+            </span>
+          </NuxtLink>
+
         </div>
         <div class="p-10">
           <ContactUsButton bg-color="bg-red-600" text-color="text-white" />
@@ -70,7 +73,13 @@ function closeDropdown() {
 
 <style>
 .slide-fade-enter-active,
-.slide-fade-leave-active { transition: all 0.5s ease; }
+.slide-fade-leave-active {
+  transition: all 0.5s ease;
+}
+
 .slide-fade-enter-from,
-.slide-fade-leave-to { opacity: 0; transform: translateY(-40px); }
+.slide-fade-leave-to {
+  opacity: 0;
+  transform: translateY(-40px);
+}
 </style>

@@ -57,9 +57,9 @@
             <p class="text-gray-500 text-lg">{{ data.results.desc }}</p>
             <div class="flex space-x-4">
                 <div v-for="(s, i) in data.results.stats" :key="i"
-                    class="w-[240px] h-[256px] bg-white rounded-xl p-6 flex flex-col justify-between text-center transform transition duration-200 hover:scale-105 hover:bg-red-600 hover:text-white">
+                    class="group w-[240px] h-[256px] bg-white rounded-xl p-6 flex flex-col justify-between text-center transform transition duration-200 hover:scale-105 hover:bg-red-600 hover:text-white">
                     <span class="font-medium text-lg">{{ s.title }}</span>
-                    <p class="text-sm text-gray-500 hover:text-white">{{ s.desc }}</p>
+                    <p class="text-sm text-gray-500 group-hover:text-white">{{ s.desc }}</p>
                     <div class="border-b border-gray-300"></div>
                     <p class="text-5xl font-bold">{{ s.value }}</p>
                 </div>
