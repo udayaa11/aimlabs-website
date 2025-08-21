@@ -1,8 +1,57 @@
 [
-    {
-        "bannerImage": "/webp/careers.webp",
-        "icon": "/svg/teamIcon.svg",
-        "tagline": "Have a mind packed with thoughts? That's great. ",
-        "heading": "We’re Hiring"
+  {
+    "bannerImage": "/webp/careers.webp",
+    "icon": "/svg/teamIcon.svg",
+    "tagline": "Have a mind packed with thoughts? That's great.",
+    "heading": "We’re Hiring",
+    "identitySections": [
+      {
+        "title": "Our Identity",
+        "paragraphs": [
+          "We believe in making a positive impact. Instead of just donating to charities, we prefer to roll up our sleeves and tackle real human issues head-on. We know how to make a difference.",
+          "Since launching our company, we've been uncovering the struggles people face and identifying the most efficient and scalable ways to address those challenges. Our aim is to replicate this success. We want to do it over and over, especially for the overlooked businesses, established firms, startups, and various other enterprises."
+        ]
+      },
+      {
+        "title": "Your Identity Matters",
+        "paragraphs": [
+          "Forget about the flashy resumes; your past jobs or education don’t define you here.",
+          "What really counts is your character, your eagerness to learn, your kindness, and your ability to connect with others. If that resonates with you, you might just find your spot with us."
+        ]
+      },
+      {
+        "title": "Work Environment Insight",
+        "paragraphs": [
+          "Experience a calm and focused workspace that reduces distractions for maximum productivity. We’re dedicated to giving our team the freedom, trust, and support they need to excel in their careers. With a laid-back atmosphere and collaborative teamwork, we say goodbye to endless meetings, email overload, and constant disruptions.",
+          "If you’re used to a different culture, it might feel a bit strange at first, but soon you’ll start to rethink your old work habits. We can’t wait to connect with you! Thanks for visiting!"
+        ]
+      }
+    ],
+    "recruitment": {
+      "title": "Aimlabs’ recruitment, clarified",
+      "subtitle": "Our hiring procedure, so you won't feel ignored",
+      "steps": [
+        {
+          "step": "01",
+          "title": "Application",
+          "description": "Take a look at the positions we have across different departments that you can apply to. We're constantly on the hunt for talent, so our emails are always ready for you. Simply fill out the form and your job application will go straight to our HR team."
+        },
+        {
+          "step": "02",
+          "title": "Review",
+          "description": "The HR team, along with the lead from the relevant department, takes a close look at your application. If you’re shortlisted, you’ll get a call to arrange an interview with the lead. Sometimes, you might also receive a test for a more detailed assessment before the call."
+        },
+        {
+          "step": "03",
+          "title": "Interview",
+          "description": "The initial interview is with the team lead, and we'll talk about all the position-related stuff. If the lead gives you a go-ahead, the next interview will be with one of our mentors who is directly linked to your position."
+        },
+        {
+          "step": "04",
+          "title": "Onboarding",
+          "description": "If everything works out, you’ll become a member of AIMLABS. Our onboarding process is thoughtfully created to help you fit into AIMLABS—from work styles to cultural details. You’ll also have a buddy to assist you throughout."
+        }
+      ]
     }
+  }
 ]

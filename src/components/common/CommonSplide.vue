@@ -23,16 +23,16 @@ const props = defineProps<{
 }>()
 
 const splideRef = ref()
-// const { progressWidth, splideOptions } = useSplideLogic(splideRef)
-const { progressWidth, splideOptions } =
-  useSplideLogic(splideRef, {
-    autoWidth: true,
-    drag: 'free',
-    focus: 'left',
-    gap: 20,
-    padding: { left: '0px', right: '220px' },
-    pagination: false,
-    arrows: false
-  })
+const { progressWidth, splideOptions } = useSplideLogic(splideRef)
+// const { progressWidth, splideOptions } =
+//   useSplideLogic(splideRef, {
+//     autoWidth: true,
+//     drag: 'free',
+//     focus: 'left',
+//     gap: 20,
+//     padding: { left: '0px', right: '220px' },
+//     pagination: false,
+//     arrows: false
+//   })
 
 </script>

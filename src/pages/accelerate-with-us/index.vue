@@ -7,15 +7,15 @@
         <div class="text-[28px] font-bold leading-[36px]">Accelerate With Us</div>
       </div>
       <ul class="flex justify-between w-full gap-x-8 text-base leading-5 cursor-pointer hover:[&>li>a]:text-red-600">
-        <li><NuxtLink to="/accelerate-with-us/innovative-cutting-edge-tech" @click="props.closeDropdown">Innovative / Cutting Edge Tech</NuxtLink></li>
+        <li><NuxtLink to="/accelerate-with-us/innovative-cutting-edge-tech" @click="props.closeDropdown?.()">Innovative / Cutting Edge Tech</NuxtLink></li>
         <li>
-          <NuxtLink to="/accelerate-with-us/customer-centric-approach" @click="props.closeDropdown">Customer Centric Approach</NuxtLink>
+          <NuxtLink to="/accelerate-with-us/customer-centric-approach" @click="props.closeDropdown?.()">Customer Centric Approach</NuxtLink>
         </li>
         <li>
-          <NuxtLink to="/accelerate-with-us/adaptability-flexibility" @click="props.closeDropdown">Adaptability & Flexibility</NuxtLink>
+          <NuxtLink to="/accelerate-with-us/adaptability-flexibility" @click="props.closeDropdown?.()">Adaptability & Flexibility</NuxtLink>
         </li>
         <li>
-          <NuxtLink to="/accelerate-with-us/fast-paced-development" @click="props.closeDropdown">Fast Paced Development</NuxtLink>
+          <NuxtLink to="/accelerate-with-us/fast-paced-development" @click="props.closeDropdown?.()">Fast Paced Development</NuxtLink>
         </li>
       </ul>
     </div>

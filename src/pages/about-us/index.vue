@@ -10,13 +10,13 @@
             <ul
                 class="flex justify-between w-full text-lg font-medium mb-4 leading-6 cursor-pointer hover:[&>li]:text-red-600">
                 <li>
-                    <NuxtLink to="/about-us/who-we-are" @click="props.closeDropdown"> Who We Are</NuxtLink>
+                    <NuxtLink to="/about-us/who-we-are" @click="props.closeDropdown?.()"> Who We Are</NuxtLink>
                 </li>
                 <li>
-                    <NuxtLink to="/about-us/mission-and-vision" @click="props.closeDropdown">Mission & Vision</NuxtLink>
+                    <NuxtLink to="/about-us/mission-and-vision" @click="props.closeDropdown?.()">Mission & Vision</NuxtLink>
                 </li>
                 <li>
-                    <NuxtLink to="/about-us/our-team" @click="props.closeDropdown">Our Team</NuxtLink>
+                    <NuxtLink to="/about-us/our-team" @click="props.closeDropdown?.()">Our Team</NuxtLink>
                 </li>
             </ul>
 

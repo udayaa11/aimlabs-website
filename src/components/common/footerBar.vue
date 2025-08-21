@@ -73,7 +73,7 @@
                         <svg xmlns="http://www.w3.org/2000/svg" width="4" height="4" viewBox="0 0 4 4" fill="none">
                             <circle cx="2" cy="2" r="2" fill="#D9D9D9" />
                         </svg>
-                        <NuxtLink to="/" class="hover:underline hover:[text-decoration-thickness:2px] hover:underline-offset-4">Cookie Policy</NuxtLink>
+                        <a href="/" class="hover:underline hover:[text-decoration-thickness:2px] hover:underline-offset-4">Cookie Policy</a>
                     </div>
                 </div>
 
@@ -88,6 +88,7 @@
 // import { useAfStore } from '~/store/store';
 // import { useDeeplink } from '../../composables/use-deeplink';
 import ContactUsButton from '../../components/common/ContactUSButton.vue'
+
 
 // const { handleDeeplink } = useDeeplink();
 

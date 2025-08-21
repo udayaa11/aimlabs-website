@@ -17,7 +17,7 @@
                  <div class="absolute bottom-0 left-0 w-full bg-white px-4 py-4 h-20 transition-all 
                         duration-500 ease-in-out 
                         group-hover:h-2/5">
-                    <p class="text-black font-bold text-xl leading-tight">
+                    <p class="text-black font-medium text-lg leading-tight">
                         {{ leader.name }}
                     </p>
                     <p class="text-gray-500 text-base mt-1">{{ leader.role }}</p>
