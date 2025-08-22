@@ -30,19 +30,21 @@
                                 idx % 6 === 1 ? 'col-span-2' :
                                     idx % 6 === 2 ? 'row-span-2 col-span-1' : ''
                         ]">
-                        <img :src="card.image" :alt="card.title" class="w-full h-full object-cover rounded-lg" />
-                        <div class="absolute text-white bg-black/70 px-3 py-1 rounded shadow-lg transition" :class="[
-                            idx % 4 === 0 ? '-top-10 left-10' :
-                                idx % 4 === 1 ? '-top-10 -right-5 -translate-y-5/6' :
-                                    idx % 4 === 2 ? '-bottom-10 left-1/2 -translate-x-1/2' :
+                        <img :src="card.image" :alt="card.title" class="w-full h-full object-cover rounded-lg text-nowrap" />
+                        <div class="absolute text-black px-3 py-1 transition" :class="[
+                            idx % 4 === 0 ? '-top-12 left-10' :
+                                idx % 4 === 1 ? '-top-10 -right-1 -translate-y-5/6' :
+                                    idx % 4 === 2 ? '-bottom-16 left-1/2 -translate-x-1/2 text-nowrap' :
                                         '-left-5 top-60 -translate-y-1/2'
                         ]">
                             <img v-if="card.directionIcon" :src="card.directionIcon" alt="Direction Icon"
-                                class="w-5 h-5 inline-block mr-1" />
+                                class="w-10 h-10 inline-block mr-4" />
                             <span class="font-semibold text-sm">{{ card.title }}</span>
                         </div>
                     </div>
                 </div>
+
+
             </div>
             <!-- Careers -->
             <div class="flex flex-col md:flex-row items-center justify-between ">
@@ -54,7 +56,7 @@
                         We're hiring passionate minds to shape the future of tech. Join us
                         and grow with a team that values innovation, learning, and impact.
                     </p>
-                    <NuxtLink to="/careers"
+                    <NuxtLink to="/careers/career"
                         class="group cursor-pointer rounded-[32px] bg-red-600 hover:bg-red-500 px-5 py-3 flex justify-center 
                          items-center transition-colors duration-100 w-full max-w-[169px] text-black hover:text-white gap-x-3">
                         <span class="font-medium">See openings</span>

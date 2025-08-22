@@ -34,12 +34,23 @@
                             <div class="flex flex-col space-y-2">
                                 <img src="/svg/aimlabsLogo.svg" class="w-full md:w-[120px] h-11"
                                     @click.native="scrollToTop" />
-                                <div class="flex gap-3">
+                                <!-- <div class="flex gap-3">
                                     <img src="/svg/footer/instaIcon.svg" />
                                     <img src="/svg/footer/fbIcon.svg" />
                                     <img src="/svg/footer/twitterIcon.svg" />
                                     <img src="/svg/footer/musicIcon.svg" />
+                                </div> -->
+
+                                <div class="flex gap-3">
+                                    <a v-for="(icon, name) in icons" :key="name" :href="icon.url" target="_blank"
+                                        rel="noopener noreferrer" class="group">
+                                        <img :src="icon.black" :alt="name"
+                                            class="w-6 h-6 transition duration-300 group-hover:hidden" />
+                                        <img :src="icon.red" :alt="name"
+                                            class="w-6 h-6 transition duration-300 hidden group-hover:block" />
+                                    </a>
                                 </div>
+
                             </div>
                         </NuxtLink>
                     </div>
@@ -49,8 +60,8 @@
                         <div v-for="(column, colIndex) in footerItems" :key="colIndex" class="space-y-2">
                             <div class="font-medium text-[20px] leading-[24px] py-1">{{ column.heading }}</div>
                             <p v-for="(item, itemIndex) in column.items" :key="itemIndex"
-                                class="cursor-pointer hover:underline hover:[text-decoration-thickness:2px] hover:underline-offset-4 text-sm leading-[16px] text-gray-300"> 
-                                {{  item.label }}</p>
+                                class="cursor-pointer hover:underline hover:[text-decoration-thickness:2px] hover:underline-offset-4 text-sm leading-[16px] text-gray-300">
+                                {{ item.label }}</p>
                         </div>
                     </div>
 
@@ -65,15 +76,21 @@
                     </div>
 
                     <div class="flex items-center gap-x-2">
-                        <NuxtLink to="/terms-and-conditions" class="hover:underline hover:[text-decoration-thickness:2px] hover:underline-offset-4">Terms & Conditions</NuxtLink>
+                        <NuxtLink to="/terms-and-conditions"
+                            class="hover:underline hover:[text-decoration-thickness:2px] hover:underline-offset-4">Terms
+                            & Conditions</NuxtLink>
                         <svg xmlns="http://www.w3.org/2000/svg" width="4" height="4" viewBox="0 0 4 4" fill="none">
                             <circle cx="2" cy="2" r="2" fill="#D9D9D9" />
                         </svg>
-                        <NuxtLink to="/privacy" class="hover:underline hover:[text-decoration-thickness:2px] hover:underline-offset-4">Privacy Policy</NuxtLink>
+                        <NuxtLink to="/privacy"
+                            class="hover:underline hover:[text-decoration-thickness:2px] hover:underline-offset-4">
+                            Privacy Policy</NuxtLink>
                         <svg xmlns="http://www.w3.org/2000/svg" width="4" height="4" viewBox="0 0 4 4" fill="none">
                             <circle cx="2" cy="2" r="2" fill="#D9D9D9" />
                         </svg>
-                        <a href="/" class="hover:underline hover:[text-decoration-thickness:2px] hover:underline-offset-4">Cookie Policy</a>
+                        <a href="/"
+                            class="hover:underline hover:[text-decoration-thickness:2px] hover:underline-offset-4">Cookie
+                            Policy</a>
                     </div>
                 </div>
 
@@ -133,6 +150,30 @@ const footerItems = [
         ]
     }
 ]
+
+const icons = {
+    instagram: {
+        black: "/svg/footer/instaIcon.svg",
+        red: "/svg/socialMediaIcons/instagramRed.svg",
+        url: "https://instagram.com"
+    },
+    facebook: {
+        black: "/svg/footer/fbIcon.svg",
+        red: "/svg/socialMediaIcons/facebookRed.svg",
+        url: "https://facebook.com"
+    },
+    linkedin: {
+        black: "/svg/footer/linkedin.svg",
+        red: "/svg/socialMediaIcons/linkedinRed.svg",
+        url: "https://linkedin.com"
+    },
+    twitter: {
+        black: "/svg/footer/twitterIcon.svg",
+        red: "/svg/socialMediaIcons/twitterRed.svg",
+        url: "https://twitter.com"
+    }
+}
+
 
 
 const scrollToTop = (event: MouseEvent) => {
