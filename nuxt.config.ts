@@ -1,4 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+import { defineNuxtConfig } from 'nuxt/config'
+import { resolve } from 'path'
+
 export default defineNuxtConfig({
   srcDir: 'src/',
   components: true,
@@ -48,14 +51,13 @@ export default defineNuxtConfig({
   },
 
   vite: {
-    build: {
-      rollupOptions: {
-        external: [
-          // Using wildcards to match all media files
-          '/**/*.webp',
-          '/**/*.svg',
-        ]
+    resolve: {
+      alias: {
+        '/webp': resolve(__dirname, 'src/public/webp'),
+        '/svg': resolve(__dirname, 'src/public/svg'),
+        '/icons': resolve(__dirname, 'src/public/icons'),
+        // add more if you have other folders inside src/public
       }
-    },
-  },
+    }
+  }
 })
