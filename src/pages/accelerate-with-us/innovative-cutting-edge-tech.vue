@@ -84,7 +84,7 @@ const stands = [
     { number: '04', title: 'Seamless Integrations', desc: 'API-first design for smooth connectivity across platforms.' },
     { number: '05', title: 'Security by Design', desc: ' Innovation that doesn’t compromise on data protection.tructure.' },
     { number: '06', title: 'Faster Time-to-Market', desc: 'Launch bold ideas with speed and precision.' },
-    { number: '07', title: 'Customizable Architecture', desc: 'Flexible solutions tailored to your needs.' },
+    { number: '07', title: 'Custombun installizable Architecture', desc: 'Flexible solutions tailored to your needs.' },
     { number: '08', title: 'Impact-Driven Innovation', desc: 'Tech that solves problems and creates real-world value.' }
 ]
 </script>
