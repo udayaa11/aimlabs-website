@@ -6,24 +6,35 @@
         <div class="w-2 h-10 bg-red-600"></div>
         <div class="text-[28px] font-bold leading-[36px]">Accelerate With Us</div>
       </div>
+
       <ul class="flex justify-between w-full gap-x-8 text-base leading-5 cursor-pointer hover:[&>li>a]:text-red-600">
-        <li><NuxtLink to="/accelerate-with-us/innovative-cutting-edge-tech" @click="props.closeDropdown?.()">Innovative / Cutting Edge Tech</NuxtLink></li>
-        <li>
-          <NuxtLink to="/accelerate-with-us/customer-centric-approach" @click="props.closeDropdown?.()">Customer Centric Approach</NuxtLink>
-        </li>
-        <li>
-          <NuxtLink to="/accelerate-with-us/adaptability-flexibility" @click="props.closeDropdown?.()">Adaptability & Flexibility</NuxtLink>
-        </li>
-        <li>
-          <NuxtLink to="/accelerate-with-us/fast-paced-development" @click="props.closeDropdown?.()">Fast Paced Development</NuxtLink>
+        <li v-for="item in menu" :key="item.key">
+          <NuxtLink :to="item.to" @click="select(item.key)"
+            :class="{ 'text-red-600 font-bold': afStore.lastAccelerate === item.key }">
+            {{ item.label }}
+          </NuxtLink>
         </li>
       </ul>
+
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
-const props = defineProps<{
-  closeDropdown: () => void
-}>()
+import { useAfStore } from '../../stores/store'
+
+const afStore = useAfStore()
+const props = defineProps<{ closeDropdown: () => void }>()
+
+const menu = [
+  { key: 'innovative-cutting-edge-tech', label: 'Innovative / Cutting Edge Tech', to: '/accelerate-with-us/innovative-cutting-edge-tech' },
+  { key: 'customer-centric-approach', label: 'Customer Centric Approach', to: '/accelerate-with-us/customer-centric-approach' },
+  { key: 'adaptability-flexibility', label: 'Adaptability & Flexibility', to: '/accelerate-with-us/adaptability-flexibility' },
+  { key: 'fast-paced-development', label: 'Fast Paced Development', to: '/accelerate-with-us/fast-paced-development' }
+]
+
+const select = (key: string) => {
+  afStore.setLastAccelerate(key)
+  props.closeDropdown?.()
+}
 </script>
