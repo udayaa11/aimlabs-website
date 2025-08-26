@@ -65,8 +65,11 @@ import WhatwedoDropdownPanel from './WhatwedoDropdownPanel.vue'
 import AccelerateWithUs from '../../pages/accelerate-with-us/index.vue'
 import AboutUs from '../../pages/about-us/index.vue'
 import ContactUsButton from '../../components/common/ContactUSButton.vue'
+
 const activeDropdown = ref<string | null>(null)
-function closeDropdown() { activeDropdown.value = null; } </script>
+function closeDropdown() { activeDropdown.value = null; }
+</script>
+
 <style>
 .slide-fade-enter-active,
 .slide-fade-leave-active {

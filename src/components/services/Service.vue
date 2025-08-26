@@ -9,28 +9,6 @@
       </div>
     </div>
 
-    <!-- <CommonSplide :items="services" :align="'end'" :padding="'px-4 lg:px-[120px]'">
-      <template #default="{ item }">
-        <div class="w-[348px] flex-shrink-0">
-          <div class="h-[256px] rounded-t-xl overflow-hidden group cursor-pointer">
-            <img :src="item.img" :alt="item.title"
-              class="w-full h-full object-cover rounded-t-xl transform transition-transform duration-500 group-hover:scale-125" />
-          </div>
-
-          <div class="bg-white rounded-b-xl p-4 flex flex-col items-center justify-center">
-            <div class="text-lg font-semibold mb-2">{{ item.title }}</div>
-            <p class="h-[120px] mb-4 w-full md:w-4/5">{{ item.description }}</p>
-            <div class="self-stretch -mx-4 border-b border-gray-200 mb-4"></div>
-            <div class="flex gap-2 items-center justify-center text-black cursor-pointer group">
-              <span class="transition-transform duration-300 group-hover:translate-x-1">Read More</span>
-              <img src="/svg/rightArrow.svg" alt="Right"
-                class="transition-transform duration-300 group-hover:translate-x-2" />
-            </div>
-          </div>
-        </div>
-      </template> 
-    </CommonSplide> -->
-
     <CommonSplide :items="services" :align="'end'" :padding="'px-4 lg:px-[120px]'">
       <template #default="{ item }">
         <div class="w-[348px] flex-shrink-0 cursor-pointer rounded-xl overflow-hidden">

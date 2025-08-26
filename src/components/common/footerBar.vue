@@ -42,8 +42,7 @@
                                 </div> -->
 
                                 <div class="flex gap-3">
-                                    <a v-for="(icon, name) in icons" :key="name" :href="icon.url" target="_blank"
-                                        rel="noopener noreferrer" class="group">
+                                    <a v-for="(icon, name) in icons" :key="name" :href="icon.url" target="_blank" rel="noopener noreferrer" class="group">
                                         <img :src="icon.black" :alt="name"
                                             class="w-6 h-6 transition duration-300 group-hover:hidden" />
                                         <img :src="icon.red" :alt="name"
