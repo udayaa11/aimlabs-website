@@ -91,7 +91,7 @@
     </div>
 
     <!-- Consents + Submit -->
-    <div class="space-y-0 mx-auto">
+    <div class="flex flex-col gap-4 mx-auto">
       <label class="flex items-start gap-2 cursor-pointer">
         <input type="checkbox" v-model="checkboxes.agreeTerms"
           class="w-5 h-5 rounded-sm border-gray-400 checked:bg-red-600 checked:border-red-600 focus:ring-0" />
