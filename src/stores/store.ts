@@ -9,6 +9,8 @@ export const useAfStore = defineStore("af", {
     // dropdown state
     isDropdownOpen: false as boolean,
     activeDropdown: null as string | null, // e.g. "about", "accelerate", "role"
+
+    isFormPopupOpen: false as boolean,
   }),
 
   actions: {
@@ -41,6 +43,12 @@ export const useAfStore = defineStore("af", {
       } else {
         this.openDropdown(name);
       }
+    },
+    openFormPopup() {
+      this.isFormPopupOpen = true;
+    },
+    closeformPopup() {
+      this.isFormPopupOpen = false;
     }
   },
 });

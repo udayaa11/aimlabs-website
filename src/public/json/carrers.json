@@ -2,8 +2,10 @@
   {
     "bannerImage": "/webp/careers.webp",
     "icon": "/svg/teamIcon.svg",
+    "icon1": "/svg/brain.svg",
     "tagline": "Have a mind packed with thoughts? That's great.",
     "heading": "We’re Hiring",
+    "heading1": "Careers",
     "identitySections": [
       {
         "title": "Our Identity",
