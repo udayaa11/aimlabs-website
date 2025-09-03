@@ -1,6 +1,6 @@
 <template>
   <div class="w-full">
-    <Splide ref="splideRef" :options="splideOptions" class="w-full px-4 sm:px-6 md:px-10 lg:ml-[220px]">
+    <Splide ref="splideRef" :options="splideOptions" class="w-full pl-4 lg:pl-[240px] md:pl-4 sm:pl-6 xs:ml-2 xxs:ml-2">
       <SplideSlide v-for="(item, i) in items" :key="i">
         <slot :item="item" :index="i" />
       </SplideSlide>
@@ -19,20 +19,9 @@ import { useSplideLogic } from '../../composables/useSplide'
 const props = defineProps<{
   items: any[]
   align: 'start' | 'end'
-  padding: 'px-4 lg:px-[120px]'
+  padding: 'px-4 sm:px-[120px]'
 }>()
 
 const splideRef = ref()
 const { progressWidth, splideOptions } = useSplideLogic(splideRef)
-// const { progressWidth, splideOptions } =
-//   useSplideLogic(splideRef, {
-//     autoWidth: true,
-//     drag: 'free',
-//     focus: 'left',
-//     gap: 20,
-//     padding: { left: '0px', right: '220px' },
-//     pagination: false,
-//     arrows: false
-//   })
-
 </script>

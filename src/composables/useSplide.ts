@@ -14,7 +14,7 @@ export function useSplideLogic(splideRef: any) {
         focus: 'left',
         pagination: false,
         arrows: false,
-        gap: 20,
+        gap: 16,
         padding: { left: '0px', right: '220px' },
     })
 

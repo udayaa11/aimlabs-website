@@ -3,9 +3,9 @@
         <!-- Banner -->
         <div class="relative w-full h-[720px]">
             <img :src="data.banner.image" alt="Banner" class="w-full h-full object-cover" />
-            <div class="absolute inset-0 flex flex-col items-center justify-center text-center space-y-6">
-                <div class="flex items-center gap-x-4 text-lg leading-[24px]">
-                    <img :src="data.banner.icon" alt="Icon" class="w-10 h-10" />
+            <div class="absolute inset-0 flex flex-col items-center justify-center text-center space-y-3 sm:space-y-6">
+                <div class="min-[428px]:flex items-center justify-center gap-x-4 text-lg leading-[24px]">
+                    <img :src="data.banner.icon" alt="Icon" class="w-10 h-10 mx-auto" />
                     <span>{{ data.banner.tagline }}</span>
                 </div>
                 <p class="text-[32px] md:text-[54px] font-semibold leading-tight md:leading-[60px]">
@@ -13,6 +13,8 @@
                 </p>
             </div>
         </div>
+
+
         <!-- About -->
         <div class="max-w-[1440px] mx-auto px-[120px] py-12 text-[#030712] space-y-6">
             <h2 class="text-black font-bold text-2xl">{{ data.about.title }}</h2>
