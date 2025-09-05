@@ -36,7 +36,7 @@
 </template>
 
 <script setup>
-import board from '../../public/json/board.json'
+import board from '../../../public/json/board.json'
 import { ref } from 'vue'
 
 const leaders = board.leaders
