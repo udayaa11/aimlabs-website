@@ -2,11 +2,11 @@
   <div v-if="career" class="max-w-[1440px] mx-auto px-4 sm:px-6 md:px-12 lg:px-[120px] py-8 sm:py-10 space-y-6">
 
     <!-- Back Link -->
-    <NuxtLink to="/careers/career"
-      class="group inline-flex items-center gap-2 text-gray-700 text-sm hover:text-red-600">
+    <NuxtLink to="/careers/career" class="group inline-flex items-center gap-2 text-gray-700 text-sm">
       <img src="/svg/backToCareers.svg" alt="Back Icon" class="w-5 h-5 block group-hover:hidden" />
       <img src="/svg/backArrowRed.svg" alt="Back Red Icon" class="w-5 h-5 hidden group-hover:block" />
-      <span class="text-[#030712] text-base sm:text-lg md:text-[20px] font-medium leading-[24px] hover:text-red-600">
+      <span
+        class="text-[#030712] text-base sm:text-lg md:text-[20px] font-medium leading-[24px] group-hover:text-red-600">
         Back to Careers
       </span>
     </NuxtLink>
@@ -91,7 +91,7 @@
     </div>
 
     <!-- Consents + Submit -->
-    <div class="space-y-4 mx-auto">
+    <div class="flex flex-col gap-4 mx-auto">
       <label class="flex items-start gap-2 cursor-pointer">
         <input type="checkbox" v-model="checkboxes.agreeTerms"
           class="w-5 h-5 rounded-sm border-gray-400 checked:bg-red-600 checked:border-red-600 focus:ring-0" />
@@ -100,7 +100,6 @@
           <span class="text-red-600 font-semibold">Privacy Policy</span> and consent AIMLABS to store my personal data.*
         </div>
       </label>
-
       <label class="flex items-start gap-2 cursor-pointer">
         <input type="checkbox" v-model="checkboxes.contactConsent"
           class="w-5 h-5 rounded-sm border-gray-400 checked:bg-red-600 checked:border-red-600 focus:ring-0" />
@@ -108,15 +107,26 @@
           Yes, AIMLABS can contact me about future job opportunities.
         </div>
       </label>
-
       <!-- Submit Button -->
       <div class="flex justify-center pt-4">
-        <button :disabled="!allChecked"
+        <button @click="afStore.openFormPopup" :disabled="!allChecked"
           class="px-6 sm:px-8 py-2 sm:py-3 rounded-[32px] text-white font-medium flex justify-center items-center gap-x-3 transition-colors duration-100 w-auto text-sm sm:text-base"
           :class="allChecked ? 'bg-red-600 hover:bg-red-500 hover:text-white cursor-pointer' : 'bg-red-200 cursor-not-allowed'">
           SUBMIT APPLICATION
         </button>
       </div>
+      <!-- Popup Modal -->
+      <transition name="fade">
+        <div v-if="afStore.isFormPopupOpen"
+          class="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50">
+          <div class="bg-white rounded-xl shadow-lg p-8 max-w-lg w-full relative">
+            <button @click="afStore.closeformPopup" class="absolute top-3 right-3 text-gray-500 hover:text-gray-700">
+              ✕
+            </button>
+            <FormSubmit />
+          </div>
+        </div>
+      </transition>
     </div>
   </div>
 
@@ -128,9 +138,12 @@
 
 <script setup>
 import { computed, reactive } from 'vue'
-import { useRoute } from 'vue-router'
 import careerData from '~/public/json/careerData.json'
 import { NuxtLink } from '#components'
+import { useAfStore } from "~/stores/store"
+import FormSubmit from "~/components/formSubmit/formSubmit.vue"
+
+const afStore = useAfStore()
 
 const route = useRoute()
 const roleSlug = computed(() => String(route.params.role || '').toLowerCase())
@@ -160,3 +173,15 @@ const checkboxes = reactive({
 })
 const allChecked = computed(() => checkboxes.agreeTerms && checkboxes.contactConsent)
 </script>
+
+<style scoped>
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.3s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+</style>

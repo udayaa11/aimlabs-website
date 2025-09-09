@@ -1,0 +1,44 @@
+{
+  "bannerImage": "/assets/webp/ourTeam.webp",
+  "icon": "/assets/svg/teamIcon.svg",
+  "tagline": "Meet Our Experts",
+  "heading": "Together We Build Success",
+  "workspace": [
+    {
+      "title": "The Heart of Innovation",
+      "directionIcon": "/assets/svg/ourWorkspace/direction.svg",
+      "image": "/assets/svg/ourWorkspace/rectangle2.svg",
+      "layout": "text-first"
+    },
+    {
+      "title": "Workspace Vibes",
+      "directionIcon": "/assets/svg/ourWorkspace/direction2.svg",
+      "image": "/assets/svg/ourWorkspace/rectangle4.svg",
+      "layout": "text-first"
+    },
+    {
+      "title": "Creative Corners",
+      "directionIcon": "/assets/svg/ourWorkspace/direction2.svg",
+      "image": "/svg/ourWorkspace/rectangle1.svg",
+      "layout": "image-first"
+    },
+    {
+      "title": "Chill & Recharge",
+      "directionIcon": "/assets/svg/ourWorkspace/direction2.svg",
+      "image": "/assets/svg/ourWorkspace/rectangle1.svg",
+      "layout": "text-first"
+    },
+    {
+      "title": "Collaboration Zone",
+      "directionIcon": "/assets/svg/ourWorkspace/direction2.svg",
+      "image": "/assets/svg/ourWorkspace/rectangle2.svg",
+      "layout": "image-first"
+    },
+    {
+      "title": "Inspiration Hub",
+      "directionIcon": "/assets/svg/ourWorkspace/direction2.svg",
+      "image": "/assets/svg/ourWorkspace/rectangle4.svg",
+      "layout": "image-first"
+    }
+  ]
+}
