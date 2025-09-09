@@ -9,9 +9,9 @@
         <div class="relative pt-6">
             <CommonSplide :items="lensImages" :align="'end'" :padding="'px-4 lg:px-[120px] md:px-60 xxs:px-20'">
                 <template #default="{ item }">
-                    <div class="w-full max-w-[280px] sm:max-w-[320px] md:max-w-[360px]">
-                        <img :src="item" alt="Lens Image"
-                            class="w-full aspect-[4/3] sm:aspect-[17/9] md:aspect-[16/9] object-cover rounded-lg" />
+                    <div class="flex-shrink-0
+                   w-[10vw] sm:w-[10vw] md:w-[12vw] lg:w-[13vw] xl:w-[14vw] min-w-[170px] max-w-[420px] xxs:h-[244px] sm:h-[320px]">
+                        <img :src="item" alt="Lens Image" class="w-full h-full object-cover rounded-lg" />
                     </div>
                 </template>
             </CommonSplide>
