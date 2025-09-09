@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Stay Ahead of the Curve",
+    "desc": "Use tomorrow’s tech to solve today’s problems.",
+    "red": "/svg/innovation/accleratedInnovation/Red.svg",
+    "white": "/svg/innovation/accleratedInnovation/White.svg"
+  },
+  {
+    "title": "Accelerated Innovation",
+    "desc": "Rapidly prototype and deploy advanced features.",
+    "red": "/svg/innovation/competativeAdvantage/Red.svg",
+    "white": "/svg/innovation/competativeAdvantage/White.svg"
+  },
+  {
+    "title": "Competitive Advantage",
+    "desc": "Differentiate your offerings with cutting-edge capabilities.",
+    "red": "/svg/innovation/costEfficiency/Red.svg",
+    "white": "/svg/innovation/costEfficiency/White.svg"
+  },
+  {
+    "title": "Enhanced User Experience",
+    "desc": "Deliver fast, intuitive, and immersive experiences.",
+    "red": "/svg/innovation/enhancedUserExperience/Red.svg",
+    "white": "/svg/innovation/enhancedUserExperience/White.svg"
+  },
+  {
+    "title": "Cost Efficiency",
+    "desc": "Automate processes, reduce manual effort, and optimize resources.",
+    "red": "/svg/innovation/scalibility/Red.svg",
+    "white": "/svg/innovation/scalibility/White.svg"
+  },
+  {
+    "title": "Scalability & Agility",
+    "desc": "Quickly adapt to market changes with flexible tech stacks.",
+    "red": "/svg/innovation/stayAhead/Red.svg",
+    "white": "/svg/innovation/stayAhead/White.svg"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Faster Time-to-Market",
+    "desc": "Respond quickly to opportunities or challenges.",
+    "red": "/svg/fasterTimeToMarket/Red.svg",
+    "white": "/svg/fasterTimeToMarket/White.svg"
+  },
+  {
+    "title": "Reduced Downtime",
+    "desc": "Quickly adapt to minimize disruption.",
+    "red": "/svg/reducedDowntime/Red.svg",
+    "white": "/svg/reducedDowntime/White.svg"
+  },
+  {
+    "title": "Future-Proof Operations",
+    "desc": "Stay competitive with scalable, resilient systems.",
+    "red": "/svg/futureProofOperations/Red.svg",
+    "white": "/svg/futureProofOperations/White.svg"
+  },
+  {
+    "title": "Client-Specific Adjustments",
+    "desc": "We adapt our process to fit your workflow.",
+    "red": "/svg/clientSpecificAdjustments/Red.svg",
+    "white": "/svg/clientSpecificAdjustments/White.svg"
+  },
+  {
+    "title": "Greater Efficiency",
+    "desc": "Streamline operations with lean, flexible models.",
+    "red": "/svg/greaterEfficiency/Red.svg",
+    "white": "/svg/greaterEfficiency/White.svg"
+  },
+  {
+    "title": "Improved Collaboration",
+    "desc": "Easily align with changing team structures or strategies.",
+    "red": "/svg/improvedCollaboration/Red.svg",
+    "white": "/svg/improvedCollaboration/White.svg"
+  }
+]
