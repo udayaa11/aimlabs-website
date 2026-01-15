@@ -1,0 +1,27 @@
+[
+  {
+    "id": "01",
+    "title": "Beyond Software — We Deliver Service",
+    "desc": "We go beyond delivering software by providing end-to-end service that ensures success at every stage. Our team supports you through implementation, optimization, and growth, acting as a true extension of your business."
+  },
+  {
+    "id": "02",
+    "title": "We Aggregate, Enhance, and Empower",
+    "desc": "Our strength lies in unifying diverse technologies and data into one seamless experience. By enhancing what already exists, we bring clarity, consistency, and control to your digital operations."
+  },
+  {
+    "id": "03",
+    "title": "We Win and Grow Together",
+    "desc": "Your goals are our goals. We see every challenge as a shared journey and take pride in celebrating wins—and learning from losses—side by side with our clients."
+  },
+  {
+    "id": "04",
+    "title": "Flexible, Agile, and Ready to Adapt",
+    "desc": "We adapt quickly to your changing needs, pivot with purpose, and respond with solutions. Our agile approach keeps your business moving forward, even in dynamic environments."
+  },
+  {
+    "id": "05",
+    "title": "Relentless Focus on What Matters",
+    "desc": "We prioritize what truly moves the needle. Whether it's performance, user experience, or business value—we stay focused on delivering meaningful outcomes that drive long-term success."
+  }
+]

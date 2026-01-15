@@ -1,0 +1,42 @@
+{
+  "icons": {
+    "instagram": {
+      "black": "/svg/socialMediaIcons/instagramBlack.svg",
+      "red": "/svg/socialMediaIcons/instagramRed.svg"
+    },
+    "facebook": {
+      "black": "/svg/socialMediaIcons/facebookBlack.svg",
+      "red": "/svg/socialMediaIcons/facebookRed.svg"
+    },
+    "linkedin": {
+      "black": "/svg/socialMediaIcons/linkedinBlack.svg",
+      "red": "/svg/socialMediaIcons/linkedinRed.svg"
+    },
+    "twitter": {
+      "black": "/svg/socialMediaIcons/twitterBlack.svg",
+      "red": "/svg/socialMediaIcons/twitterRed.svg"
+    }
+  },
+  "leaders": [
+    {
+      "name": "Krishna Chaitanya",
+      "role": "Director & Co-founder",
+      "img": "/webp/Chaitanya.webp"
+    },
+    {
+      "name": "Venkat Reddy",
+      "role": "Director & Co-founder",
+      "img": "/webp/Ram.webp"
+    },
+    {
+      "name": "Santosh Reddy",
+      "role": "Director & Co-founder",
+      "img": "/webp/Santosh.webp"
+    },
+    {
+      "name": "Suresh Reddy",
+      "role": "Director & Co-founder",
+      "img": "/webp/Suresh.webp"
+    }
+  ]
+}

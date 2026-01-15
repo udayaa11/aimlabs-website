@@ -1,0 +1,182 @@
+[
+    {
+        "slug": "frontend",
+        "jobTitle": "Frontend Developer",
+        "experience": "2-5 years",
+        "location": "Hyderabad - Onsite",
+        "jobType": "Full-time",
+        "description": "We’re looking for a passionate and skilled Frontend Developer to join our team and help craft exceptional digital experiences. You’ll be responsible for translating UI/UX designs into responsive, interactive, and accessible web interfaces using modern technologies. If you love turning creative ideas into pixel-perfect reality, we’d love to hear from you.",
+        "sections": [
+            {
+                "heading": "Responsibilities",
+                "items": [
+                    "Develop responsive, high-performance web applications using HTML, CSS, JavaScript, and modern frameworks (e.g., React, Vue, Angular).",
+                    "Collaborate with designers, backend developers, and product managers to bring features to life.",
+                    "Ensure the technical feasibility of UI/UX designs and optimize applications for maximum speed and scalability.",
+                    "Maintain code quality, reusability, and documentation.",
+                    "Implement cross-browser and cross-platform compatibility.",
+                    "Write clean, testable code and contribute to unit/integration testing."
+                ]
+            },
+            {
+                "heading": "Requirements",
+                "items": [
+                    "Bachelor’s degree in Computer Science or related field.",
+                    "3+ years of frontend development experience.",
+                    "Proficiency in JavaScript, HTML, CSS, and modern frameworks.",
+                    "Strong problem-solving skills and attention to detail."
+                ]
+            },
+            {
+                "heading": "What We Offer",
+                "items": [
+                    "Competitive salary and benefits.",
+                    "Flexible working hours and hybrid options.",
+                    "Professional development and training opportunities.",
+                    "Collaborative and inclusive work environment."
+                ]
+            },
+            {
+                "heading": "Office Timings",
+                "items": [
+                    "Monday to Friday: 9:30 AM – 6:30 PM",
+                    "Saturday: 10:00 AM – 2:00 PM"
+                ]
+            }
+        ]
+    },
+    {
+        "slug": "backend",
+        "jobTitle": "Backend Developer",
+        "experience": "3-6 years",
+        "location": "Bangalore - Hybrid",
+        "jobType": "Full-time",
+        "description": "We’re searching for a Backend Developer to design and build scalable APIs and services...",
+        "sections": [
+            {
+                "heading": "Responsibilities",
+                "items": [
+                    "Build and maintain RESTful and GraphQL APIs.",
+                    "Design and manage scalable databases.",
+                    "Work closely with frontend teams to integrate APIs.",
+                    "Ensure security, performance, and reliability of backend services."
+                ]
+            },
+            {
+                "heading": "Requirements",
+                "items": [
+                    "3+ years of backend development experience.",
+                    "Proficiency in Node.js, Python, or Java.",
+                    "Strong database knowledge (SQL & NoSQL).",
+                    "Familiarity with cloud services like AWS/GCP."
+                ]
+            },
+            {
+                "heading": "What We Offer",
+                "items": [
+                    "Competitive salary and benefits.",
+                    "Flexible working hours and hybrid options.",
+                    "Professional development and training opportunities.",
+                    "Collaborative and inclusive work environment."
+                ]
+            },
+            {
+                "heading": "Office Timings",
+                "items": [
+                    "Monday to Friday: 9:30 AM – 6:30 PM",
+                    "Saturday: 10:00 AM – 2:00 PM"
+                ]
+            }
+        ]
+    },
+    {
+        "slug": "fullstack",
+        "jobTitle": "Fullstack Developer",
+        "experience": "4-7 years",
+        "location": "Bangalore - Hybrid",
+        "jobType": "Full-time",
+        "description": "We’re looking for a Fullstack Developer to build end-to-end applications, from scalable backends to engaging user interfaces.",
+        "sections": [
+            {
+                "heading": "Responsibilities",
+                "items": [
+                    "Design, develop, and maintain both frontend and backend components.",
+                    "Collaborate with UI/UX designers to implement responsive, user-friendly interfaces.",
+                    "Integrate APIs and third-party services efficiently.",
+                    "Ensure performance, scalability, and security across the stack."
+                ]
+            },
+            {
+                "heading": "Requirements",
+                "items": [
+                    "4+ years of professional software development experience.",
+                    "Proficiency in JavaScript/TypeScript, with experience in frameworks like Vue.js/React and Node.js.",
+                    "Strong understanding of databases (SQL & NoSQL).",
+                    "Experience with RESTful and GraphQL APIs.",
+                    "Familiarity with cloud services (AWS, GCP, or Azure)."
+                ]
+            },
+            {
+                "heading": "What We Offer",
+                "items": [
+                    "Competitive salary and benefits.",
+                    "Flexible working hours and hybrid options.",
+                    "Professional development and training opportunities.",
+                    "Collaborative and inclusive work environment."
+                ]
+            },
+            {
+                "heading": "Office Timings",
+                "items": [
+                    "Monday to Friday: 9:30 AM – 6:30 PM",
+                    "Saturday: 10:00 AM – 2:00 PM"
+                ]
+            }
+        ]
+    },
+    {
+        "slug": "mobile-app-developer",
+        "jobTitle": "Mobile App Developer (Flutter)",
+        "experience": "2-5 years",
+        "location": "Bangalore - Hybrid",
+        "jobType": "Full-time",
+        "description": "We’re seeking a Mobile App Developer specializing in Flutter to create high-performance, cross-platform mobile applications with exceptional user experiences.",
+        "sections": [
+            {
+                "heading": "Responsibilities",
+                "items": [
+                    "Develop and maintain cross-platform mobile applications using Flutter.",
+                    "Collaborate with backend and design teams to deliver scalable and intuitive apps.",
+                    "Optimize app performance, responsiveness, and reliability.",
+                    "Publish and maintain applications on the App Store and Google Play."
+                ]
+            },
+            {
+                "heading": "Requirements",
+                "items": [
+                    "2+ years of professional experience in mobile app development.",
+                    "Strong proficiency in Flutter and Dart.",
+                    "Experience integrating RESTful APIs and third-party SDKs.",
+                    "Knowledge of mobile UI/UX best practices.",
+                    "Understanding of native iOS (Swift) or Android (Kotlin/Java) is a plus."
+                ]
+            },
+            {
+                "heading": "What We Offer",
+                "items": [
+                    "Competitive salary and benefits.",
+                    "Flexible working hours and hybrid options.",
+                    "Professional development and training opportunities.",
+                    "Collaborative and inclusive work environment."
+                ]
+            },
+            {
+                "heading": "Office Timings",
+                "items": [
+                    "Monday to Friday: 9:30 AM – 6:30 PM",
+                    "Saturday: 10:00 AM – 2:00 PM"
+                ]
+            }
+        ]
+    }
+]
