@@ -2,7 +2,7 @@
     <div class="font-outfit w-full">
         <div class="max-w-[1440px] mx-auto px-4 lg:px-[120px]">
             <h2 class="text-black font-bold text-2xl md:text-[28px] leading-snug md:leading-[36px] mb-6">
-                Through Our Lens
+                Through Our Lens latestsss
             </h2>
         </div>
 

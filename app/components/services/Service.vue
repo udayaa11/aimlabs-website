@@ -2,7 +2,7 @@
   <div class="font-outfit w-full bg-gray-50">
     <div class="max-w-[1440px] mx-auto px-10 py-5 md:px-6 lg:px-[120px]">
       <h2 class="text-black font-bold text-2xl md:text-[28px] leading-snug md:leading-[36px] mb-6">
-        Services
+        Our Services
       </h2>
       <p class="text-gray-500 text-base md:text-lg leading-relaxed mb-10">
         We offer end-to-end technology services to help businesses thrive—from AI and data analytics to

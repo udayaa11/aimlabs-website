@@ -16,52 +16,55 @@
                 class="pointer-events-auto px-8 py-3 bg-white text-red-600 rounded-full font-semibold hover:bg-gray-200 transition">Learn
                 More</button>
         </div>
-        <div class="absolute bottom-8 left-1/2 -translate-x-1/2 flex gap-2 pointer-events-auto">
+        <!-- <div class="absolute bottom-8 left-1/2 -translate-x-1/2 flex gap-2 pointer-events-auto">
             <div v-for="(val, i) in progressBars" :key="i" class="w-20 h-1 bg-gray-400 rounded overflow-hidden">
                 <div class="h-1 bg-red-600 transition-all duration-150 ease-linear"
                     :style="{ width: progressBars[i] + '%' }"></div>
             </div>
+        </div> -->
+
+        <div class="absolute bottom-8 left-1/2 -translate-x-1/2 pointer-events-none">
+            <div class="w-20 h-1 bg-red-600 rounded"></div>
         </div>
+
     </div>
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted, onUnmounted } from 'vue';
 
 const images = [
     '/webp/homePageBanner.webp',
-    '/webp/homePageBanner1.webp',
-    '/webp/homePageBanner2.webp',
-    '/webp/homePageBanner3.webp',
+    // '/webp/homePageBanner1.webp',
+    // '/webp/homePageBanner2.webp',
+    // '/webp/homePageBanner3.webp',
 ];
 
-const currentIndex = ref(0);
-const progressBars = ref<number[]>(Array(images.length).fill(0));
+// const currentIndex = ref(0);
 
-let intervalId: number | undefined;
-const slideMs = 2000; 
-const tickMs = 50;
-const step = (tickMs / slideMs) * 100; 
+// let intervalId: number | undefined;
+// const slideMs = 2000; 
+// const tickMs = 50;
+// const step = (tickMs / slideMs) * 100; 
 
-onMounted(() => {
-    intervalId = window.setInterval(() => {
-        const i = currentIndex.value;
-        progressBars.value[i] += step;
-        if (progressBars.value[i] >= 100) {
-            progressBars.value[i] = 100;             
-            const next = (i + 1) % images.length;
-            if (next === 0) {
-                progressBars.value = Array(images.length).fill(0);
-                currentIndex.value = 0;
-            } else {
-                currentIndex.value = next;
-                progressBars.value[next] = 0;
-            }
-        }
-    }, tickMs);
-});
+// onMounted(() => {
+//     intervalId = window.setInterval(() => {
+//         const i = currentIndex.value;
+//         progressBars.value[i] += step;
+//         if (progressBars.value[i] >= 100) {
+//             progressBars.value[i] = 100;             
+//             const next = (i + 1) % images.length;
+//             if (next === 0) {
+//                 progressBars.value = Array(images.length).fill(0);
+//                 currentIndex.value = 0;
+//             } else {
+//                 currentIndex.value = next;
+//                 progressBars.value[next] = 0;
+//             }
+//         }
+//     }, tickMs);
+// });
 
-onUnmounted(() => {
-    if (intervalId) clearInterval(intervalId);
-});
+// onUnmounted(() => {
+//     if (intervalId) clearInterval(intervalId);
+// });
 </script>

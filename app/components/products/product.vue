@@ -13,12 +13,12 @@
                         {{ item.name }}
                     </span>
 
-                    <div class="relative w-8 h-8 md:w-10 md:h-10">
+                    <!-- <div class="relative w-8 h-8 md:w-10 md:h-10">
                         <img src="/assets/svg/crossIcon.svg" alt="Cross Arrow"
                             class="absolute inset-0 w-full h-full z-10 transition-opacity duration-300 group-hover:opacity-0" />
                         <img src="/assets/svg/crossIconRed.svg" alt="Cross Arrow Red"
                             class="absolute inset-0 w-full h-full z-10 opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
-                    </div>
+                    </div> -->
 
                     <span
                         class="absolute left-0 top-0 h-full w-0 bg-red-600 transition-all duration-500 ease-out group-hover:w-full"></span>
@@ -31,7 +31,7 @@
 <script setup>
 const columns = [
     [
-        { name: "E-Commerce" },
+        { name: "OTT Platforms" },
         { name: "Game Servers & Platforms" },
         { name: "Sportsbook" }
     ],
